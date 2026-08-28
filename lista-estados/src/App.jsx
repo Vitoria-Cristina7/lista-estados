@@ -12,23 +12,20 @@ function App() {
   }, []);
 
   return (
-    (
-      <div className="container">
-        <h1>Estados do Brasil</h1>
-      </div>
-    ) >
-    (
+    <main className="container">
+      <h1>Estados do Brasil</h1>
+
       <div className="lista-estados">
         {estados.map((estado) => (
           <Estado
             key={estado.id}
-            nome={estado.nome}
             sigla={estado.sigla}
+            nome={estado.nome}
             regiao={estado.regiao.nome}
           />
         ))}
       </div>
-    )
+    </main>
   );
 }
 
