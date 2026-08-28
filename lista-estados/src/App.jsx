@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Estados do Brasil</h1>
+      <h1>ESTADOS DO BRASIL</h1>
 
       <div className="lista-estados">
         {estados.map((estado) => (
