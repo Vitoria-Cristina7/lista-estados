@@ -12,7 +12,7 @@ function App() {
   }, []);
 
   return (
-    <main className="container">
+    <div className="container">
       <h1>Estados do Brasil</h1>
 
       <div className="lista-estados">
@@ -25,7 +25,7 @@ function App() {
           />
         ))}
       </div>
-    </main>
+    </div>
   );
 }
 
