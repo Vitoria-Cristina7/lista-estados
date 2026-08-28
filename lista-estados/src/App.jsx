@@ -24,7 +24,7 @@ function App() {
             key={estado.id}
             nome={estado.nome}
             sigla={estado.sigla}
-            regiao={estado.regiao}
+            regiao={estado.regiao.nome}
           />
         ))}
       </div>
